@@ -27,4 +27,7 @@ public class Autor {
     public void adicionarLivro(Livro livro) {
         this.livros.add(livro);
     }
+    public boolean removerLivro(Livro livro){
+        return this.livros.remove(livro);
+    }
 }
