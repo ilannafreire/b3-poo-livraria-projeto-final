@@ -20,8 +20,11 @@ public class Autor {
     public String getCpf() {
         return cpf;
     }
-
     public ArrayList<Livro> getLivros() {
         return livros;
+    }
+
+    public void adicionarLivro(Livro livro) {
+        this.livros.add(livro);
     }
 }
